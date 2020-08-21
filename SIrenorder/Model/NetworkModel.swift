@@ -90,8 +90,8 @@ class CallRequest {
 class NetWorkURL {
     
     let logInURL = "http://54.180.56.44:8080/MemberLogin.do"
-    let SignUpURL = "http://54.180.56.44:8080/MemberRegister.do"
-    let NoticeURL = "http://54.180.56.44:8080/NoticeFindAll.do"
+    let signUpURL = "http://54.180.56.44:8080/MemberRegister.do"
+    let noticeURL = "http://54.180.56.44:8080/NoticeFindAll.do"
     let phoneNumberCheckURL = "http://54.180.56.44:8080/MemberPhoneCheck.do"
     let passwordUpdateURL = "http://54.180.56.44:8080/MemberPassUpdate.do"
     

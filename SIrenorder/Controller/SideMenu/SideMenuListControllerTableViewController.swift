@@ -60,6 +60,7 @@ class SideMenuListController: UITableViewController {
     
     
     
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
@@ -78,7 +79,8 @@ class SideMenuListController: UITableViewController {
         let controller = CouponCollectionViewController(collectionViewLayout: layout)
         navigationController?.pushViewController(controller, animated: true)
         case 1:
-            print(123)
+            let controller = NoticeTableViewController()
+            navigationController?.pushViewController(controller, animated: true)
         case 2:
             showMailView()
         case 3:
