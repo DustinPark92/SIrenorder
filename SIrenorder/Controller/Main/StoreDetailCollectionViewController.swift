@@ -18,7 +18,8 @@ class StoreDetailCollectionViewController: UICollectionViewController {
     var name: String?
     
     let rightItem: UIBarButtonItem = {
-        let button = UIBarButtonItem(image: UIImage(systemName: "bookmark"), style: .plain, target: self, action: #selector(buttonTapped))
+//        let button = UIBarButtonItem(image: UIImage(systemName: "bookmark"), style: .plain, target: self, action: #selector(buttonTapped))
+        let button = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(buttonTapped))
         return button
     }()
     
@@ -31,7 +32,6 @@ class StoreDetailCollectionViewController: UICollectionViewController {
         configureUI()
         
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
         
     }
     
