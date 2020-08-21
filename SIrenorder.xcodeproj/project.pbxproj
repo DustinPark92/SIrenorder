@@ -56,6 +56,11 @@
 		DA72BC7124EF85E3003643B0 /* SIrenorder */ = {
 			isa = PBXGroup;
 			children = (
+				DA72BC8C24EF8645003643B0 /* Model */,
+				DA72BC8924EF8604003643B0 /* Controller */,
+				DA72BC8824EF85F8003643B0 /* Utils */,
+				DA72BC8724EF85F3003643B0 /* VIewModel */,
+				DA72BC8624EF85EB003643B0 /* View */,
 				DA72BC7224EF85E3003643B0 /* AppDelegate.swift */,
 				DA72BC7424EF85E3003643B0 /* SceneDelegate.swift */,
 				DA72BC7624EF85E3003643B0 /* ViewController.swift */,
@@ -65,6 +70,41 @@
 				DA72BC8024EF85E4003643B0 /* Info.plist */,
 			);
 			path = SIrenorder;
+			sourceTree = "<group>";
+		};
+		DA72BC8624EF85EB003643B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA72BC8724EF85F3003643B0 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		DA72BC8824EF85F8003643B0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DA72BC8924EF8604003643B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA72BC8C24EF8645003643B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
